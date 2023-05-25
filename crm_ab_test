@@ -213,6 +213,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (17,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (17,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (17,'',0,'Control');
 
+--Seeker Onboarding Promo Email (Day 2) Redesign 25.05.2023 (ADI-10501)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',0,'Control');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -320,6 +332,14 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-17'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-17','2023-05-22',17,'New Seeker Promo Welcome Email',6840809,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_M1');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-17','2023-05-22',17,'New Seeker Promo Welcome Email',6845817,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_M1');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-17','2023-05-22',17,'New Seeker Promo Welcome Email',6845891,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_M1');
+
+--Seeker Onboarding Promo Email (Day 2) Redesign 25.05.2023 (ADI-10501)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',18,'Seeker Onboarding Promo Email (Day 2) Redesign',5652114,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',18,'Seeker Onboarding Promo Email (Day 2) Redesign',5924419,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',18,'Seeker Onboarding Promo Email (Day 2) Redesign',5924316,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',18,'Seeker Onboarding Promo Email (Day 2) Redesign',6897981,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',18,'Seeker Onboarding Promo Email (Day 2) Redesign',6905291,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',18,'Seeker Onboarding Promo Email (Day 2) Redesign',6905302,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

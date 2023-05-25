@@ -225,6 +225,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (18,'',0,'Control');
 
+--Promo Code in Job App Trigger 25.05.2023 (ADI-10504)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',0,'Control');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -340,6 +352,14 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',18,'Seeker Onboarding Promo Email (Day 2) Redesign',6897981,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',18,'Seeker Onboarding Promo Email (Day 2) Redesign',6905291,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',18,'Seeker Onboarding Promo Email (Day 2) Redesign',6905302,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
+
+--Promo Code in Job App Trigger 25.05.2023 (ADI-10504)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',2117064,'Transactional-Email_MessageReceived_JobApplication');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',2060591,'Transactional-Email_MessageReceived_JobApplication');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',2060600,'Transactional-Email_MessageReceived_JobApplication');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',6905462,'Transactional-Email_MessageReceived_JobApplicationw/promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',6908865,'Transactional-Email_MessageReceived_JobApplicationw/promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',6908928,'Transactional-Email_MessageReceived_JobApplicationw/promo');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

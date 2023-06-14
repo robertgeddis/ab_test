@@ -237,6 +237,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (19,'',0,'Control');
 
+--30% Promo Code in Abandoned Cart 13.06.2023 (ADI-10626)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (20,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (20,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (20,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (20,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (20,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (20,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (20,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (20,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (20,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (20,'',0,'Control');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -360,6 +372,39 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',6905462,'Transactional-Email_MessageReceived_JobApplicationw/promo');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',6908865,'Transactional-Email_MessageReceived_JobApplicationw/promo');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',6908928,'Transactional-Email_MessageReceived_JobApplicationw/promo');
+
+--30% Promo Code in Abandoned Cart 13.06.2023 for Seeker + Provider (ADI-10626)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',1828242,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',1828243,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',2524045,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',1829395,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',2524035,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',1829402,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',2523773,'Transactional-Email_CartAbandoned');
+
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',1828242,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',1828243,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',2524045,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',1829395,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',2524035,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',1829402,'Transactional-Email_CartAbandoned');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',2523773,'Transactional-Email_CartAbandoned');
+
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7035570,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7035647,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7035654,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7035974,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7035985,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7036014,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7036024,'Transactional-Email_CartAbandoned_Test');
+
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7035570,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7035647,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7035654,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7035974,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7035985,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7036014,'Transactional-Email_CartAbandoned_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',7036024,'Transactional-Email_CartAbandoned_Test');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

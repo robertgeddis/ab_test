@@ -378,12 +378,12 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2023-06-15',18,'Seeker Onboarding Promo Email (Day 2) Redesign',6905302,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
 
 --Promo Code in Job App Trigger 25.05.2023 (ADI-10504)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',2117064,'Transactional-Email_MessageReceived_JobApplication');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',2060591,'Transactional-Email_MessageReceived_JobApplication');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',2060600,'Transactional-Email_MessageReceived_JobApplication');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',6905462,'Transactional-Email_MessageReceived_JobApplicationw/promo');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',6908865,'Transactional-Email_MessageReceived_JobApplicationw/promo');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2050-01-01',19,'Promo Code in Job App Trigger',6908928,'Transactional-Email_MessageReceived_JobApplicationw/promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2023-06-22',19,'Promo Code in Job App Trigger',2117064,'Transactional-Email_MessageReceived_JobApplication');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2023-06-22',19,'Promo Code in Job App Trigger',2060591,'Transactional-Email_MessageReceived_JobApplication');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2023-06-22',19,'Promo Code in Job App Trigger',2060600,'Transactional-Email_MessageReceived_JobApplication');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2023-06-22',19,'Promo Code in Job App Trigger',6905462,'Transactional-Email_MessageReceived_JobApplicationw/promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2023-06-22',19,'Promo Code in Job App Trigger',6908865,'Transactional-Email_MessageReceived_JobApplicationw/promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-05-25','2023-06-22',19,'Promo Code in Job App Trigger',6908928,'Transactional-Email_MessageReceived_JobApplicationw/promo');
 
 --30% Promo Code in Abandoned Cart 13.06.2023 for Seeker + Provider (ADI-10626)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-13','2050-01-01',20,'30% Promo Code in Abandoned Cart',1828242,'Transactional-Email_CartAbandoned');

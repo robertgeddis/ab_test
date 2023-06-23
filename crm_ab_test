@@ -419,12 +419,12 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-1
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-06-13','2023-06-22',20,'30% Promo Code in Abandoned Cart',7036024,'Transactional-Email_CartAbandoned_Test');
 
 --Fast20 Code in Seeker Welcome Email 15.06.2023 (ADI-10653)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2050-01-01',21,'Fast20 Code in Seeker Welcome Email',6109596,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2050-01-01',21,'Fast20 Code in Seeker Welcome Email',6109892,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2050-01-01',21,'Fast20 Code in Seeker Welcome Email',6109879,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2050-01-01',21,'Fast20 Code in Seeker Welcome Email',7054308,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_M1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2050-01-01',21,'Fast20 Code in Seeker Welcome Email',7054455,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_M1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2050-01-01',21,'Fast20 Code in Seeker Welcome Email',7054476,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2023-06-23',21,'Fast20 Code in Seeker Welcome Email',6109596,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2023-06-23',21,'Fast20 Code in Seeker Welcome Email',6109892,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2023-06-23',21,'Fast20 Code in Seeker Welcome Email',6109879,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2023-06-23',21,'Fast20 Code in Seeker Welcome Email',7054308,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2023-06-23',21,'Fast20 Code in Seeker Welcome Email',7054455,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2023-06-23',21,'Fast20 Code in Seeker Welcome Email',7054476,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_M1');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

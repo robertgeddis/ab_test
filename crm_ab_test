@@ -285,6 +285,30 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (23,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (23,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (23,'',0,'Test');
 
+--FAST20 + US Copy in Seeker Welcome Email (ADI-10788)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (24,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (24,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (24,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (24,'',4,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (24,'',5,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (24,'',6,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (24,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (24,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (24,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (24,'',0,'Control');
+
+--Providers Near You View CTA (ADI-10795)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (25,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (25,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (25,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (25,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (25,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (25,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (25,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (25,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (25,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (25,'',0,'Control');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -451,18 +475,30 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-15','2023-06-23',21,'Fast20 Code in Seeker Welcome Email',7054476,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_M1');
 
 --Promo in AutoApp Received 27.06.2023 (ADI-10750)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-27','2050-01-01',22,'Promo in AutoApp Received',3970185,'Transactional-Email_AutoAppReceived_Profile and Transactional-Email_AutoAppReceived_Inbox');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-27','2050-01-01',22,'Promo in AutoApp Received',3970184,'Transactional-Email_AutoAppReceived_Profile and Transactional-Email_AutoAppReceived_Inbox');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-27','2050-01-01',22,'Promo in AutoApp Received',7135269,'Transactional-Email_AutoAppReceived_w/promo_Profile and Transactional-Email_AutoAppReceived_w/promo_Inbox');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-27','2050-01-01',22,'Promo in AutoApp Received',7135297,'Transactional-Email_AutoAppReceived_w/promo_Profile and Transactional-Email_AutoAppReceived_w/promo_Inbox');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-27','2023-07-06',22,'Promo in AutoApp Received',3970185,'Transactional-Email_AutoAppReceived_Profile and Transactional-Email_AutoAppReceived_Inbox');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-27','2023-07-06',22,'Promo in AutoApp Received',3970184,'Transactional-Email_AutoAppReceived_Profile and Transactional-Email_AutoAppReceived_Inbox');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-27','2023-07-06',22,'Promo in AutoApp Received',7135269,'Transactional-Email_AutoAppReceived_w/promo_Profile and Transactional-Email_AutoAppReceived_w/promo_Inbox');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-27','2023-07-06',22,'Promo in AutoApp Received',7135297,'Transactional-Email_AutoAppReceived_w/promo_Profile and Transactional-Email_AutoAppReceived_w/promo_Inbox');
 
 --Promo in Message Received 29.06.2023 (ADI-10758)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2050-01-01',23,'Promo in Message Received',2117023,'Transactional-Email_MessageReceived_NewMessage');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2050-01-01',23,'Promo in Message Received',2059904,'Transactional-Email_MessageReceived_NewMessage');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2050-01-01',23,'Promo in Message Received',2059913,'Transactional-Email_MessageReceived_NewMessage');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2050-01-01',23,'Promo in Message Received',7137350,'Transactional-Email_MessageReceived_NewMessage_w/promo');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2050-01-01',23,'Promo in Message Received',7143938,'Transactional-Email_MessageReceived_NewMessage_w/promo');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2050-01-01',23,'Promo in Message Received',7144001,'Transactional-Email_MessageReceived_NewMessage_w/promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2023-07-06',23,'Promo in Message Received',2117023,'Transactional-Email_MessageReceived_NewMessage');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2023-07-06',23,'Promo in Message Received',2059904,'Transactional-Email_MessageReceived_NewMessage');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2023-07-06',23,'Promo in Message Received',2059913,'Transactional-Email_MessageReceived_NewMessage');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2023-07-06',23,'Promo in Message Received',7137350,'Transactional-Email_MessageReceived_NewMessage_w/promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2023-07-06',23,'Promo in Message Received',7143938,'Transactional-Email_MessageReceived_NewMessage_w/promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2023-07-06',23,'Promo in Message Received',7144001,'Transactional-Email_MessageReceived_NewMessage_w/promo');
+
+--FAST20 + US Copy in Seeker Welcome Email (ADI-10788)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',6109596,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',6109892,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',6109879,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',7191807,'202306_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',7191775,'202306_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',7186479,'202306_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
+
+--Providers Near You View CTA (ADI-10795)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-06','2050-01-01',25,'Providers Near You View CTA',7189783,'Transactional-Email_ProviderNearYou_Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-06','2050-01-01',25,'Providers Near You View CTA',7189781,'Transactional-Email_ProviderNearYou_ViewCTA_Test');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

@@ -513,8 +513,8 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-06'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-06','2050-01-01',25,'Providers Near You View CTA',7189781,'Transactional-Email_ProviderNearYou_ViewCTA_Test');
 
 --Jobs Near You SL (ADI-10840)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-07-13','2050-01-01',26,'Jobs Near You SL',2044649,'Transactional-Email_JobsNearYou');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-07-13','2050-01-01',26,'Jobs Near You SL',7247803,'Transactional-Email_JobsNearYou_CTA-up_TestSL');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-07-13','2023-07-17',26,'Jobs Near You SL',2044649,'Transactional-Email_JobsNearYou');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-07-13','2023-07-17',26,'Jobs Near You SL',7247803,'Transactional-Email_JobsNearYou_CTA-up_TestSL');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

@@ -501,16 +501,16 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-06-29','2023-07-06',23,'Promo in Message Received',7144001,'Transactional-Email_MessageReceived_NewMessage_w/promo');
 
 --FAST20 + US Copy in Seeker Welcome Email (ADI-10788)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',6109596,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',6109892,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',6109879,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',7191807,'202306_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',7191775,'202306_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2050-01-01',24,'FAST20 + US Copy in Seeker Welcome Email',7186479,'202306_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2023-07-20',24,'FAST20 + US Copy in Seeker Welcome Email',6109596,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2023-07-20',24,'FAST20 + US Copy in Seeker Welcome Email',6109892,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2023-07-20',24,'FAST20 + US Copy in Seeker Welcome Email',6109879,'Email_Trigger_Onboarding_B2C_Seeker/Provider_Basic/Premium_AllV_Welcome_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2023-07-20',24,'FAST20 + US Copy in Seeker Welcome Email',7191807,'202306_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2023-07-20',24,'FAST20 + US Copy in Seeker Welcome Email',7191775,'202306_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-05','2023-07-20',24,'FAST20 + US Copy in Seeker Welcome Email',7186479,'202306_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
 
 --Providers Near You View CTA (ADI-10795)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-06','2050-01-01',25,'Providers Near You View CTA',7189783,'Transactional-Email_ProviderNearYou_Control');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-06','2050-01-01',25,'Providers Near You View CTA',7189781,'Transactional-Email_ProviderNearYou_ViewCTA_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-06','2023-07-20',25,'Providers Near You View CTA',7189783,'Transactional-Email_ProviderNearYou_Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-07-06','2023-07-20',25,'Providers Near You View CTA',7189781,'Transactional-Email_ProviderNearYou_ViewCTA_Test');
 
 --Jobs Near You SL (ADI-10840)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-07-13','2023-07-17',26,'Jobs Near You SL',2044649,'Transactional-Email_JobsNearYou');

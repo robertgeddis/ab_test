@@ -345,6 +345,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (28,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (28,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (28,'',0,'Control');
 
+--Abandoned Rate Card Day0 Exclusion: Seeker + Provider (ADI-11193)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (29,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (29,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (29,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (29,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (29,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (29,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (29,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (29,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (29,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (29,'',0,'Control');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -547,6 +559,17 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-07-2
 --Jobs Near You CTA: Be the First to Apply (ADI-11031)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-03','2023-08-08',28,'Jobs Near You CTA: Be the First to Apply',2044649,'Transactional-Email_JobsNearYou');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-03','2023-08-08',28,'Jobs Near You CTA: Be the First to Apply',7395184,'Transactional-Email_JobsNearYou_Banner');
+
+--Abandoned Rate Card Day0 Exclusion: Seeker + Provider (ADI-11193)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7562528,'Transactional-Email_AbandonedRateCard');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7562529,'Transactional-Email_AbandonedRateCard_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7562528,'Transactional-Email_AbandonedRateCard');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7562529,'Transactional-Email_AbandonedRateCard_Rem');
+
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7279166,'Transactional-Email_AbandonedRateCard');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7279169,'Transactional-Email_AbandonedRateCard_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7279166,'Transactional-Email_AbandonedRateCard');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7279169,'Transactional-Email_AbandonedRateCard_Rem');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

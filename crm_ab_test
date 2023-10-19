@@ -573,22 +573,22 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-0
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-03','2023-08-08',28,'Jobs Near You CTA: Be the First to Apply',7395184,'Transactional-Email_JobsNearYou_Banner');
 
 --Abandoned Rate Card Day0 Exclusion: Seeker + Provider (ADI-11193)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7562528,'Transactional-Email_AbandonedRateCard');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7562529,'Transactional-Email_AbandonedRateCard_Rem');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7562528,'Transactional-Email_AbandonedRateCard');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7562529,'Transactional-Email_AbandonedRateCard_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2023-09-06',29,'Abandoned Rate Card Day0 Exclusion',7562528,'Transactional-Email_AbandonedRateCard');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2023-09-06',29,'Abandoned Rate Card Day0 Exclusion',7562529,'Transactional-Email_AbandonedRateCard_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2023-09-06',29,'Abandoned Rate Card Day0 Exclusion',7562528,'Transactional-Email_AbandonedRateCard');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2023-09-06',29,'Abandoned Rate Card Day0 Exclusion',7562529,'Transactional-Email_AbandonedRateCard_Rem');
 
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7279166,'Transactional-Email_AbandonedRateCard');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7279169,'Transactional-Email_AbandonedRateCard_Rem');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7279166,'Transactional-Email_AbandonedRateCard');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2050-01-01',29,'Abandoned Rate Card Day0 Exclusion',7279169,'Transactional-Email_AbandonedRateCard_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2023-09-06',29,'Abandoned Rate Card Day0 Exclusion',7279166,'Transactional-Email_AbandonedRateCard');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-08-24','2023-09-06',29,'Abandoned Rate Card Day0 Exclusion',7279169,'Transactional-Email_AbandonedRateCard_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2023-09-06',29,'Abandoned Rate Card Day0 Exclusion',7279166,'Transactional-Email_AbandonedRateCard');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('provider','2023-08-24','2023-09-06',29,'Abandoned Rate Card Day0 Exclusion',7279169,'Transactional-Email_AbandonedRateCard_Rem');
 
 --Abandoned Rate Card / Onboarding Promo Day 2 (ADI-11478)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2050-01-01',30,'Abandoned Rate Card / Onboarding Promo Day 2',7755238,'Transactional-Email_AbandonedRateCard_Day1_Rem');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2050-01-01',30,'Abandoned Rate Card / Onboarding Promo Day 2',7755235,'Transactional-Email_AbandonedRateCard_Nth_Upgrade_Rem');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2050-01-01',30,'Abandoned Rate Card / Onboarding Promo Day 2',6905291,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2050-01-01',30,'Abandoned Rate Card / Onboarding Promo Day 2',6905302,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2050-01-01',30,'Abandoned Rate Card / Onboarding Promo Day 2',6897981,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2023-10-19',30,'Abandoned Rate Card / Onboarding Promo Day 2',7755238,'Transactional-Email_AbandonedRateCard_Day1_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2023-10-19',30,'Abandoned Rate Card / Onboarding Promo Day 2',7755235,'Transactional-Email_AbandonedRateCard_Nth_Upgrade_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2023-10-19',30,'Abandoned Rate Card / Onboarding Promo Day 2',6905291,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2023-10-19',30,'Abandoned Rate Card / Onboarding Promo Day 2',6905302,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2023-10-19',30,'Abandoned Rate Card / Onboarding Promo Day 2',6897981,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

@@ -615,10 +615,10 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-10-04','2023-10-19',30,'Abandoned Rate Card / Onboarding Promo Day 2',6897981,'202305_Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Promo_Test');
 
 --Merge Abandoned Rate Card with Welcome for High Intent Day1s (ADI-11820)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16','2050-01-01',31,'Merge Abandoned Rate Card with Welcome for High Intent Day1s',8311260,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16','2050-01-01',31,'Merge Abandoned Rate Card with Welcome for High Intent Day1s',8310716,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16','2050-01-01',31,'Merge Abandoned Rate Card with Welcome for High Intent Day1s',8310660,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16','2050-01-01',31,'Merge Abandoned Rate Card with Welcome for High Intent Day1s',8310839,'Email_Trigger_Onboarding_B2C_Seeker_Basic_AllV_Welcome_w/promo_V3_M1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16','2050-01-01',31,'Merge Abandoned Rate Card with Welcome for High Intent Day1s',8311260,'Transactional-Email_AbandonedRateCard_Day1');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16','2050-01-01',31,'Merge Abandoned Rate Card with Welcome for High Intent Day1s',8284630,'Transactional-Email_AbandonedRateCard_w/Welcome');
 
 --Abandoned Rate Card: Reminder New Design + PNY feed (ADI-11821)

@@ -663,6 +663,9 @@ select testid, campaign_name, variation, title, target, startdate, enddate, -- c
   sum(uploadedPhoto) as 'Uploaded Photo',
   sum(memberApprovedPhoto) as 'Has Approved Photo',
   sum(Upgrades) as Upgrades,
+  sum(Day1s) as Day1s,
+  sum(Nths) as Nths,
+  sum(Reupgrades) as Reupgrades,
   --sum(t.amount) as amount,
   sum(t.amount * fx.currency_rate) as 'USD Bookings',
   --sum(case when pc.promoCode is not null then t.amount end) as amountPC,
@@ -685,7 +688,10 @@ from (
     count(distinct rev.reviewid) as Reviews_Created,
     count(distinct case when pr.name = 'Photo' and pr.photoaction = 'Upload' then pr.memberid end) as uploadedPhoto,
     count(distinct ph.memberid) as memberApprovedPhoto,
-    count(distinct up.memberid) as Upgrades
+    count(distinct up.memberid) as Upgrades,
+    count(distinct case when up.itemType = 'day1Premium' then up.memberid end) as Day1s,
+    count(distinct case when up.itemType = 'dayNPremium' then up.memberid end) as Nths,
+    count(distinct case when up.itemType = 'Reupgrade' then up.memberid end) as Reupgrades
   from intl.DW_F_MEMBER_EMAIL_EVENT_DETAIL_INTL det
     join analytics_prod.INTL_AB_CRM_Performance ab on det.event_datetime between ab.startdate and ab.enddate
       and case when ab.campaign_id = 0 then ab.campaign_name = det.campaign_name else ab.campaign_id = det.campaign_id end

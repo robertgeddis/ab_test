@@ -640,8 +640,8 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16','2023-11-30',32,'Abandoned Rate Card: Reminder New Design + PNY feed',8248271,'Transactional-Email_AbandonedRateCard_Nth_Upgrade_Rem_Test');
 
 --PProvider Profile Viewed - Improve Unsubs (ADI-11887)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-12-04','2050-01-01',33,'Provider Profile Viewed - Improve Unsubs',8016204,'Transactional-Email_ProviderProfileViewed_A');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-12-04','2050-01-01',33,'Provider Profile Viewed - Improve Unsubs',8336343,'Transactional-Email_ProviderProfileViewed_B');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-20','2050-01-01',33,'Provider Profile Viewed - Improve Unsubs',8016204,'Transactional-Email_ProviderProfileViewed_A');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-20','2050-01-01',33,'Provider Profile Viewed - Improve Unsubs',8336343,'Transactional-Email_ProviderProfileViewed_B');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

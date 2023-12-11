@@ -405,6 +405,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (33,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (33,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (33,'',0,'Control');
 
+--Abandoned Rate Card Dedicated Reupgrades Copy (ADI-11925)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',0,'Control');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -639,9 +651,13 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16','2023-11-30',32,'Abandoned Rate Card: Reminder New Design + PNY feed',8248263,'Transactional-Email_AbandonedRateCard_Day1_Rem_Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16','2023-11-30',32,'Abandoned Rate Card: Reminder New Design + PNY feed',8248271,'Transactional-Email_AbandonedRateCard_Nth_Upgrade_Rem_Test');
 
---PProvider Profile Viewed - Improve Unsubs (ADI-11887)
+--Provider Profile Viewed - Improve Unsubs (ADI-11887)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-20','2050-01-01',33,'Provider Profile Viewed - Improve Unsubs',8016204,'Transactional-Email_ProviderProfileViewed_A');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-20','2050-01-01',33,'Provider Profile Viewed - Improve Unsubs',8336343,'Transactional-Email_ProviderProfileViewed_B');
+
+--Abandoned Rate Card Dedicated Reupgrades Copy (ADI-11925)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-12-12','2050-01-01',34,'Abandoned Rate Card Dedicated Reupgrades Copy',8513776,'Transactional-Email_AbandonedRateCard_Nth_Reupgrade');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-12-12','2050-01-01',34,'Abandoned Rate Card Dedicated Reupgrades Copy',8487167,'Transactional-Email_AbandonedRateCard_Nth_Reupgrade_Test');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

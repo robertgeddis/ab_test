@@ -417,6 +417,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (34,'',0,'Control');
 
+--Valentines Day Promo DE (ASB-591)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',1,'Hold');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',3,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',6,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',0,'Hold');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -658,6 +670,13 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-20'
 --Abandoned Rate Card Dedicated Reupgrades Copy (ADI-11925)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-12-11','2024-01-08',34,'Abandoned Rate Card Dedicated Reupgrades Copy',8513776,'Transactional-Email_AbandonedRateCard_Nth_Reupgrade');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-12-11','2024-01-08',34,'Abandoned Rate Card Dedicated Reupgrades Copy',8487167,'Transactional-Email_AbandonedRateCard_Nth_Reupgrade_Test');
+
+--Valentines Day Promo DE (ASB-591)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2050-01-01',35,'Valentines Day Promo DE',8911651,'20240206_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_HoldOut_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2050-01-01',35,'Valentines Day Promo DE',8911664,'20240206_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Control_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2050-01-01',35,'Valentines Day Promo DE',8911670,'20240206_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Test_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2050-01-01',35,'Valentines Day Promo DE',8931912,'20240207_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Control_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2050-01-01',35,'Valentines Day Promo DE',8931913,'20240207_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Test_Rem');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

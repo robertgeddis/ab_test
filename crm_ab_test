@@ -429,6 +429,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (35,'',0,'Hold');
 
+--Spring Clean Promo DE/AT/UK/CA (ASB-12499)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',0,'Control');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -664,19 +676,25 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-16','2023-11-30',32,'Abandoned Rate Card: Reminder New Design + PNY feed',8248271,'Transactional-Email_AbandonedRateCard_Nth_Upgrade_Rem_Test');
 
 --Provider Profile Viewed - Improve Unsubs (ADI-11887)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-20','2050-01-01',33,'Provider Profile Viewed - Improve Unsubs',8016204,'Transactional-Email_ProviderProfileViewed_A');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-20','2050-01-01',33,'Provider Profile Viewed - Improve Unsubs',8336343,'Transactional-Email_ProviderProfileViewed_B');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-20','2024-03-06',33,'Provider Profile Viewed - Improve Unsubs',8016204,'Transactional-Email_ProviderProfileViewed_A');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-11-20','2024-03-06',33,'Provider Profile Viewed - Improve Unsubs',8336343,'Transactional-Email_ProviderProfileViewed_B');
 
 --Abandoned Rate Card Dedicated Reupgrades Copy (ADI-11925)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-12-11','2024-01-08',34,'Abandoned Rate Card Dedicated Reupgrades Copy',8513776,'Transactional-Email_AbandonedRateCard_Nth_Reupgrade');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2023-12-11','2024-01-08',34,'Abandoned Rate Card Dedicated Reupgrades Copy',8487167,'Transactional-Email_AbandonedRateCard_Nth_Reupgrade_Test');
 
 --Valentines Day Promo DE (ASB-591)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2050-01-01',35,'Valentines Day Promo DE',8911651,'20240206_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_HoldOut_Launch');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2050-01-01',35,'Valentines Day Promo DE',8911664,'20240206_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Control_Launch');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2050-01-01',35,'Valentines Day Promo DE',8911670,'20240206_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Test_Launch');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2050-01-01',35,'Valentines Day Promo DE',8931912,'20240207_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Control_Rem');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2050-01-01',35,'Valentines Day Promo DE',8931913,'20240207_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Test_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2024-02-07',35,'Valentines Day Promo DE',8911651,'20240206_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_HoldOut_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2024-02-07',35,'Valentines Day Promo DE',8911664,'20240206_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Control_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2024-02-07',35,'Valentines Day Promo DE',8911670,'20240206_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Test_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2024-02-07',35,'Valentines Day Promo DE',8931912,'20240207_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Control_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2024-02-07',35,'Valentines Day Promo DE',8931913,'20240207_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Test_Rem');
+
+--Spring Clean Promo DE/AT/UK/CA (ASB-12499)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2050-01-01',36,'Spring Clean Promo DE/AT/UK/CA',9140854,'20240305_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_25%off_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2050-01-01',36,'Spring Clean Promo DE/AT/UK/CA',9141692,'20240306_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_25%off_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2050-01-01',36,'Spring Clean Promo DE/AT/UK/CA',9141641,'20240305_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_50%off_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2050-01-01',36,'Spring Clean Promo DE/AT/UK/CA',9141693,'20240306_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_50%off_Rem');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

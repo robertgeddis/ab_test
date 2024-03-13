@@ -441,6 +441,30 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (36,'',0,'Control');
 
+--AutoApp Received SL (ADI-12516)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (37,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (37,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (37,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (37,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (37,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (37,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (37,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (37,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (37,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (37,'',0,'Control');
+
+--Promo in PNY for Marketing Opt-Ins (ASB-1145)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',0,'Control');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -691,10 +715,21 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-02-06','2024-02-07',35,'Valentines Day Promo DE',8931913,'20240207_Email_Blast_B2C_Seeker_Basic_AllV_Promo_PreValentinesDay_Test_Rem');
 
 --Spring Clean Promo DE/AT/UK/CA (ASB-12499)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2050-01-01',36,'Spring Clean Promo DE/AT/UK/CA',9140854,'20240305_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_25%off_Launch');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2050-01-01',36,'Spring Clean Promo DE/AT/UK/CA',9141692,'20240306_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_25%off_Rem');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2050-01-01',36,'Spring Clean Promo DE/AT/UK/CA',9141641,'20240305_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_50%off_Launch');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2050-01-01',36,'Spring Clean Promo DE/AT/UK/CA',9141693,'20240306_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_50%off_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2024-03-06',36,'Spring Clean Promo DE/AT/UK/CA',9140854,'20240305_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_25%off_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2024-03-06',36,'Spring Clean Promo DE/AT/UK/CA',9141692,'20240306_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_25%off_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2024-03-06',36,'Spring Clean Promo DE/AT/UK/CA',9141641,'20240305_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_50%off_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2024-03-06',36,'Spring Clean Promo DE/AT/UK/CA',9141693,'20240306_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_50%off_Rem');
+
+--AutoApp Received SL (ADI-12516)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',37,'AutoApp Received SL',9215748,'Transactional-Email_AutoAppReceived_Profile');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',37,'AutoApp Received SL',9215815,'Transactional-Email_AutoAppReceived_Inbox');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',37,'AutoApp Received SL',9215756,'Transactional-Email_AutoAppReceived_Profile_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',37,'AutoApp Received SL',9215807,'Transactional-Email_AutoAppReceived_Inbox_Test');
+
+--Promo in PNY for Marketing Opt-Ins (ASB-1145)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-03-13',38,'PNY Promo for Marketing Opt-Ins',9258591,'Transactional-Email_ProviderNearYou_mktg-control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-03-13',38,'PNY Promo for Marketing Opt-Ins',9258585,'Transactional-Email_ProviderNearYou_mktg-test-w-promo20');
+
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

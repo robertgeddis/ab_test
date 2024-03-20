@@ -465,6 +465,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (38,'',0,'Control');
 
+--Promo and PNY in DE (ADI-12524)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',0,'Control');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -727,8 +739,16 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',37,'AutoApp Received SL',9215807,'Transactional-Email_AutoAppReceived_Inbox_Test');
 
 --Promo in PNY for Marketing Opt-Ins (ASB-1145)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-03-13',38,'PNY Promo for Marketing Opt-Ins',9258591,'Transactional-Email_ProviderNearYou_mktg-control');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-03-13',38,'PNY Promo for Marketing Opt-Ins',9258585,'Transactional-Email_ProviderNearYou_mktg-test-w-promo20');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',38,'PNY Promo for Marketing Opt-Ins',9258591,'Transactional-Email_ProviderNearYou_mktg-control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',38,'PNY Promo for Marketing Opt-Ins',9258585,'Transactional-Email_ProviderNearYou_mktg-test-w-promo20');
+
+--Promo and PNY in DE (ADI-12524)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302095,'Transactional-Email_ProviderNearYou_Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302281,'Transactional-Email_ProviderNearYou_Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302283,'20240319_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302105,'20240320_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302282,'Transactional-Email_ProviderNearYou_w/promocode');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302116,'Transactional-Email_ProviderNearYou_w/promocode');
 
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;

@@ -744,11 +744,11 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12'
 
 --Promo and PNY in DE (ADI-12524)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302095,'Transactional-Email_ProviderNearYou_Control');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302281,'Transactional-Email_ProviderNearYou_Control');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302283,'20240319_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Launch');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302105,'20240320_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Rem');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302282,'Transactional-Email_ProviderNearYou_w/promocode');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302105,'20240319_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Launch');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302116,'Transactional-Email_ProviderNearYou_w/promocode');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2050-01-01',39,'Promo and PNY in DE',9302281,'Transactional-Email_ProviderNearYou_Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2050-01-01',39,'Promo and PNY in DE',9302283,'20240320_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2050-01-01',39,'Promo and PNY in DE',9302282,'Transactional-Email_ProviderNearYou_w/promocode');
 
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;

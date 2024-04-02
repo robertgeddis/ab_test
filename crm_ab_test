@@ -733,10 +733,10 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-05','2024-03-06',36,'Spring Clean Promo DE/AT/UK/CA',9141693,'20240306_Email_Blast_B2C_Seeker_Basic_HKCC_Promo_SpringCleanYourCastle_50%off_Rem');
 
 --AutoApp Received SL (ADI-12516)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',37,'AutoApp Received SL',9215748,'Transactional-Email_AutoAppReceived_Profile');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',37,'AutoApp Received SL',9215815,'Transactional-Email_AutoAppReceived_Inbox');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',37,'AutoApp Received SL',9215756,'Transactional-Email_AutoAppReceived_Profile_Test');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',37,'AutoApp Received SL',9215807,'Transactional-Email_AutoAppReceived_Inbox_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-03-28',37,'AutoApp Received SL',9215748,'Transactional-Email_AutoAppReceived_Profile');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-03-28',37,'AutoApp Received SL',9215815,'Transactional-Email_AutoAppReceived_Inbox');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-03-28',37,'AutoApp Received SL',9215756,'Transactional-Email_AutoAppReceived_Profile_Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-03-28',37,'AutoApp Received SL',9215807,'Transactional-Email_AutoAppReceived_Inbox_Test');
 
 --Promo in PNY for Marketing Opt-Ins (ASB-1145)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',38,'PNY Promo for Marketing Opt-Ins',9258591,'Transactional-Email_ProviderNearYou_mktg-control');

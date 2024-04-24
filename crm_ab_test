@@ -477,6 +477,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (39,'',0,'Control');
 
+--Job Posted Confirmation (ADI-12560)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (40,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (40,'',2,'Hold');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (40,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (40,'',4,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (40,'',5,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (40,'',6,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (40,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (40,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (40,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (40,'',0,'Hold');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -749,6 +761,10 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2050-01-01',39,'Promo and PNY in DE',9302281,'Transactional-Email_ProviderNearYou_Control');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2050-01-01',39,'Promo and PNY in DE',9302283,'20240320_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Rem');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2050-01-01',39,'Promo and PNY in DE',9302282,'Transactional-Email_ProviderNearYou_w/promocode');
+
+--Job Posted Confirmation (ADI-12560)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-04-23','2050-01-01',40,'Job Posted Confirmation',9654694,'Email_Trigger_JobPosted_B2C_Seeker_Basic/Premium_AllV_JobPostedConfirmation_HoldOutGroup');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-04-23','2050-01-01',40,'Job Posted Confirmation',9655287,'Email_Trigger_JobPosted_B2C_Seeker_Basic/Premium_AllV_JobPostedConfirmation');
 
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;

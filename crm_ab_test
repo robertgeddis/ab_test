@@ -827,8 +827,8 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-04-23'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-04-23','2050-01-01',40,'Job Posted Confirmation',9655287,'Email_Trigger_JobPosted_B2C_Seeker_Basic/Premium_AllV_JobPostedConfirmation');
 
 --Robust Provider Profile Snippets in PNY (ASB-2091)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-08','2024-06-10',41,'Robust Provider Profile Snippets in PNY',9784800,'Transactional-Email_ProviderNearYou_Control');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-08','2024-06-10',41,'Robust Provider Profile Snippets in PNY',9784831,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-08','2024-06-11',41,'Robust Provider Profile Snippets in PNY',9784800,'Transactional-Email_ProviderNearYou_Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-08','2024-06-11',41,'Robust Provider Profile Snippets in PNY',9784831,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet');
 
 --My Carers LP in AutoApp Received Email (ASB-2141)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-13','2050-01-01',42,'My Carers LP in AutoApp Received Email',9820124,'Transactional-Email_AutoAppReceived_Control_LP-Profile');

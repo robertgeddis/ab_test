@@ -30,7 +30,7 @@ from intl.hive_event tc
                                                and s.subscriptiondatecreated >= '2024-08-01' and date(s.subscriptiondatecreated) < date(current_date)  
                                                
     left join intl.hive_event pv               on pv.memberid = tc.memberid and pv.countrycode = tc.countrycode and pv.datecreated > tc.datecreated  
-                                               and pv.name = 'ProfileView' and date(pv.datecreated) >= '2024-08-01'    
+                                               and pv.name = 'ProfileView' and date(pv.datecreated) >= '2024-08-01' and date(pv.datecreated) < date(current_date)     
                                                
     left join
           (select 
@@ -66,7 +66,8 @@ from intl.hive_event tc
               from intl.message msg
                 join intl.message fr on fr.message_thread_id = msg.message_thread_id and fr.country_code = msg.country_code and fr.sent_received = 'RECEIVED' and fr.pending is not true and fr.status in ('ACTIVE','INACTIVE')
                 join intl.hive_member m on m.memberid = msg.owner_id and m.countrycode = msg.country_code and m.isinternalaccount is not true and m.closedforfraud is not true 
-              where date(msg.date_created) >= '2024-08-01' 
+              where date(msg.date_created) >= '2024-08-01'
+                    and date(msg.date_created) < date(current_date)  
                     and msg.first_message is true) t 
              where message_type in ('(9) Question', '(0) Manual', 'Unknown')
              group by 1,2,3,4,5) msg on msg.owner_id = pv.memberid and msg.country_code = pv.countrycode and msg.date_created > pv.datecreated and msg.other_member_id = pv.providerid                                          

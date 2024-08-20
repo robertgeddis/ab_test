@@ -30,7 +30,7 @@ from intl.hive_event tc
                                                and s.subscriptiondatecreated >= '2024-08-01' and date(s.subscriptiondatecreated) < date(current_date)  
                                                
     left join intl.hive_event pv               on pv.memberid = tc.memberid and pv.countrycode = tc.countrycode and pv.datecreated > tc.datecreated  
-                                               and pv.name = 'ProfileView' and date(pv.datecreated) >= '2024-08-01'    
+                                               and pv.name = 'ProfileView' and date(pv.datecreated) >= '2024-08-01' and date(pv.datecreated) < date(current_date)    
                                                
     left join (
                   select distinct 
@@ -46,6 +46,7 @@ from intl.hive_event tc
                                                   and rpy.itemType in ('MEMBER', 'PROFILE') and rpy.datecreated > msg.datecreated                      
                   where msg.name = 'Message'
                     and date(msg.datecreated) >= '2024-08-01'
+                    and date(msg.datecreated) < date(current_date) 
                     and msg.role = 'seeker'
                     and msg.messageType = 'message'
                     and msg.itemType in ('MEMBER', 'PROFILE')

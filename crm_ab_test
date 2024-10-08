@@ -823,33 +823,33 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-03-28',37,'AutoApp Received SL',9215807,'Transactional-Email_AutoAppReceived_Inbox_Test');
 
 --Promo in PNY for Marketing Opt-Ins (ASB-1145)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',38,'PNY Promo for Marketing Opt-Ins',9258591,'Transactional-Email_ProviderNearYou_mktg-control');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2050-01-01',38,'PNY Promo for Marketing Opt-Ins',9258585,'Transactional-Email_ProviderNearYou_mktg-test-w-promo20');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-10-08',38,'PNY Promo for Marketing Opt-Ins',9258591,'Transactional-Email_ProviderNearYou_mktg-control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-12','2024-10-08',38,'PNY Promo for Marketing Opt-Ins',9258585,'Transactional-Email_ProviderNearYou_mktg-test-w-promo20');
 
 --Promo and PNY in DE (ADI-12524)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302095,'Transactional-Email_ProviderNearYou_Control');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302105,'20240319_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Launch');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2050-01-01',39,'Promo and PNY in DE',9302116,'Transactional-Email_ProviderNearYou_w/promocode');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2050-01-01',39,'Promo and PNY in DE',9302281,'Transactional-Email_ProviderNearYou_Control');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2050-01-01',39,'Promo and PNY in DE',9302283,'20240320_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Rem');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2050-01-01',39,'Promo and PNY in DE',9302282,'Transactional-Email_ProviderNearYou_w/promocode');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2024-10-08',39,'Promo and PNY in DE',9302095,'Transactional-Email_ProviderNearYou_Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2024-10-08',39,'Promo and PNY in DE',9302105,'20240319_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Launch');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-19','2024-10-08',39,'Promo and PNY in DE',9302116,'Transactional-Email_ProviderNearYou_w/promocode');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2024-10-08',39,'Promo and PNY in DE',9302281,'Transactional-Email_ProviderNearYou_Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2024-10-08',39,'Promo and PNY in DE',9302283,'20240320_Email_Blast_B2C_Seeker_Basic_AllV_Promo_WelcomeSpringAutumn_Rem');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-03-20','2024-10-08',39,'Promo and PNY in DE',9302282,'Transactional-Email_ProviderNearYou_w/promocode');
 
 --Job Posted Confirmation (ADI-12560)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-04-23','2050-01-01',40,'Job Posted Confirmation',9654694,'Email_Trigger_JobPosted_B2C_Seeker_Basic/Premium_AllV_JobPostedConfirmation_HoldOutGroup');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-04-23','2050-01-01',40,'Job Posted Confirmation',9655287,'Email_Trigger_JobPosted_B2C_Seeker_Basic/Premium_AllV_JobPostedConfirmation');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-04-23','2024-10-08',40,'Job Posted Confirmation',9654694,'Email_Trigger_JobPosted_B2C_Seeker_Basic/Premium_AllV_JobPostedConfirmation_HoldOutGroup');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-04-23','2024-10-08',40,'Job Posted Confirmation',9655287,'Email_Trigger_JobPosted_B2C_Seeker_Basic/Premium_AllV_JobPostedConfirmation');
 
 --Robust Provider Profile Snippets in PNY (ASB-2091)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-08','2024-06-11',41,'Robust Provider Profile Snippets in PNY',9784800,'Transactional-Email_ProviderNearYou_Control');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-08','2024-06-11',41,'Robust Provider Profile Snippets in PNY',9784831,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet');
 
 --My Carers LP in AutoApp Received Email (ASB-2141)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-13','2050-01-01',42,'My Carers LP in AutoApp Received Email',9820124,'Transactional-Email_AutoAppReceived_Control_LP-Profile');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-13','2050-01-01',42,'My Carers LP in AutoApp Received Email',9820130,'Transactional-Email_AutoAppReceived_Control_LP-Inbox');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-13','2050-01-01',42,'My Carers LP in AutoApp Received Email',9820060,'Transactional-Email_AutoAppReceived_Test_LP-MyCarers');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-13','2024-10-08',42,'My Carers LP in AutoApp Received Email',9820124,'Transactional-Email_AutoAppReceived_Control_LP-Profile');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-13','2024-10-08',42,'My Carers LP in AutoApp Received Email',9820130,'Transactional-Email_AutoAppReceived_Control_LP-Inbox');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-05-13','2024-10-08',42,'My Carers LP in AutoApp Received Email',9820060,'Transactional-Email_AutoAppReceived_Test_LP-MyCarers');
 
 --PNY Robust Snippet DACH Markets (ADI-12608)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2050-01-01',43,'PNY Robust Snippet DACH Markets',10181185,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Control-V2');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2050-01-01',43,'PNY Robust Snippet DACH Markets',10160604,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V2');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2024-10-08',43,'PNY Robust Snippet DACH Markets',10181185,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Control-V2');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2024-10-08',43,'PNY Robust Snippet DACH Markets',10160604,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V2');
 
 --PNY Robust Snippet EN Markets (ADI-12609)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2024-10-08',44,'PNY Robust Snippet EN Markets',7189783,'Transactional-Email_ProviderNearYou');
@@ -857,8 +857,8 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2024-10-08',44,'PNY Robust Snippet EN Markets',10160786,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet');
 
 --PNY Marketing Module Small Markets (ADI-12610)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-07-09','2050-01-01',45,'PNY Marketing Module Small Markets',10390714,'Transactional-Email_ProviderNearYou');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-07-09','2050-01-01',45,'PNY Marketing Module Small Markets',10390708,'Transactional-Email_ProviderNearYou_MktgModule');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-07-09','2024-10-08',45,'PNY Marketing Module Small Markets',10390714,'Transactional-Email_ProviderNearYou');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-07-09','2024-10-08',45,'PNY Marketing Module Small Markets',10390708,'Transactional-Email_ProviderNearYou_MktgModule');
 
 --AutoApp Received Robust provider Snippet V1 (INTLADI-58)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-09-25','2050-01-01',46,'AutoApp Received Robust provider Snippet V1',11172827,'Transactional-Email_AutoAppReceived_Test_LP-MyCarers');

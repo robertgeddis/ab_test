@@ -852,9 +852,9 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2050-01-01',43,'PNY Robust Snippet DACH Markets',10160604,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V2');
 
 --PNY Robust Snippet EN Markets (ADI-12609)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2050-01-01',44,'PNY Robust Snippet EN Markets',7189783,'Transactional-Email_ProviderNearYou');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2050-01-01',44,'PNY Robust Snippet EN Markets',9784800,'Transactional-Email_ProviderNearYou_Control');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2050-01-01',44,'PNY Robust Snippet EN Markets',10160786,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2024-10-08',44,'PNY Robust Snippet EN Markets',7189783,'Transactional-Email_ProviderNearYou');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2024-10-08',44,'PNY Robust Snippet EN Markets',9784800,'Transactional-Email_ProviderNearYou_Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-06-18','2024-10-08',44,'PNY Robust Snippet EN Markets',10160786,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet');
 
 --PNY Marketing Module Small Markets (ADI-12610)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-07-09','2050-01-01',45,'PNY Marketing Module Small Markets',10390714,'Transactional-Email_ProviderNearYou');

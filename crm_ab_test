@@ -885,19 +885,19 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-07-09'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-07-09','2024-10-08',45,'PNY Marketing Module Small Markets',10390708,'Transactional-Email_ProviderNearYou_MktgModule');
 
 --AutoApp Received Robust provider Snippet V1 (INTLADI-58)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-09-25','2050-01-01',46,'AutoApp Received Robust provider Snippet V1',11172827,'Transactional-Email_AutoAppReceived_Test_LP-MyCarers');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-09-25','2050-01-01',46,'AutoApp Received Robust provider Snippet V1',11172816,'Transactional-Email_AutoAppReceived_RobustProfileSnippets_V1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-09-25','2024-11-12',46,'AutoApp Received Robust provider Snippet V1',11172827,'Transactional-Email_AutoAppReceived_Test_LP-MyCarers');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-09-25','2024-11-12',46,'AutoApp Received Robust provider Snippet V1',11172816,'Transactional-Email_AutoAppReceived_RobustProfileSnippets_V1');
 
 --PNY Robust provider Snippet V3 (INTLADI-59)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-09','2050-01-01',47,'PNY Robust provider Snippet V3',11318551,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V2');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-09','2050-01-01',47,'PNY Robust provider Snippet V3',11306131,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V3');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-09','2050-01-01',47,'PNY Robust provider Snippet V3',11306084,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V3');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-09','2050-01-01',47,'PNY Robust provider Snippet V3',11306150,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V3');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-09','2050-01-01',47,'PNY Robust provider Snippet V3',11318536,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-09','2024-11-12',47,'PNY Robust provider Snippet V3',11318551,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V2');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-09','2024-11-12',47,'PNY Robust provider Snippet V3',11306131,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V3');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-09','2024-11-12',47,'PNY Robust provider Snippet V3',11306084,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V3');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-09','2024-11-12',47,'PNY Robust provider Snippet V3',11306150,'Transactional-Email_ProviderNearYou_RobustProfileSnippet_Test-V3');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-09','2024-11-12',47,'PNY Robust provider Snippet V3',11318536,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet');
 
 --PNY Robust provider Snippet No Photo (INTLADI-60)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-23','2050-01-01',48,'PNY Robust provider Snippet No Photo',11461706,'Transactional-Email_ProviderNearYou');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-23','2050-01-01',48,'PNY Robust provider Snippet No Photo',11461281,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet_V1_NoPhoto');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-23','2024-11-12',48,'PNY Robust provider Snippet No Photo',11461706,'Transactional-Email_ProviderNearYou');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-23','2024-11-12',48,'PNY Robust provider Snippet No Photo',11461281,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet_V1_NoPhoto');
 
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;

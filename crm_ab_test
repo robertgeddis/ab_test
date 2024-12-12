@@ -912,8 +912,8 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-23'
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-23','2024-11-12',48,'PNY Robust provider Snippet No Photo',11461281,'Transactional-Email_ProviderNearYou_TEST-RobustProfileSnippet_V1_NoPhoto');
 
 --AutoApp Received Robust Provider Snippet V2 (INTLADI-64)
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-11-26','2050-01-01',49,'AutoApp Received Robust Provider Snippet V2',11819909,'Transactional-Email_AutoAppReceived_RobustProfileSnippets_V1');
-INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-11-26','2050-01-01',49,'AutoApp Received Robust Provider Snippet V2',11819846,'Transactional-Email_AutoAppReceived_RobustProfileSnippets_V2');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-11-26','2024-12-11',49,'AutoApp Received Robust Provider Snippet V2',11819909,'Transactional-Email_AutoAppReceived_RobustProfileSnippets_V1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-11-26','2024-12-11',49,'AutoApp Received Robust Provider Snippet V2',11819846,'Transactional-Email_AutoAppReceived_RobustProfileSnippets_V2');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 

@@ -597,6 +597,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (49,'',8,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (49,'',9,'Test');
 INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (49,'',0,'Control');
 
+--JobApp Robust Provider Snippet V1 (INTLADI-68)
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (50,'',1,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (50,'',2,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (50,'',3,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (50,'',4,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (50,'',5,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (50,'',6,'Control');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (50,'',7,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (50,'',8,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (50,'',9,'Test');
+INSERT INTO analytics_prod.INTL_AB_CRM_Cell_Config VALUES (50,'',0,'Control');
+
 GRANT ALL on analytics_prod.INTL_AB_CRM_Cell_Config to reporting_ro, analytics_team WITH GRANT OPTION;
 
 select * from analytics_prod.INTL_AB_CRM_Cell_Config order by 1,2,3,4;
@@ -914,6 +926,18 @@ INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-10-23'
 --AutoApp Received Robust Provider Snippet V2 (INTLADI-64)
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-11-26','2024-12-11',49,'AutoApp Received Robust Provider Snippet V2',11819909,'Transactional-Email_AutoAppReceived_RobustProfileSnippets_V1');
 INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-11-26','2024-12-11',49,'AutoApp Received Robust Provider Snippet V2',11819846,'Transactional-Email_AutoAppReceived_RobustProfileSnippets_V2');
+
+--JobApp Robust Provider Snippet V1 (INTLADI-68)
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-12-27','2050-01-01',50,'JobApp Robust Provider Snippet V1',12069244,'Transactional-Email_MessageReceived_JobApplication');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-12-27','2050-01-01',50,'JobApp Robust Provider Snippet V1',12064158,'Transactional-Email_MessageReceived_JobApplication');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-12-27','2050-01-01',50,'JobApp Robust Provider Snippet V1',12069286,'Transactional-Email_MessageReceived_JobApplication_RobustProfileSnippets_V1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-12-27','2050-01-01',50,'JobApp Robust Provider Snippet V1',12069229,'Transactional-Email_MessageReceived_JobApplication_RobustProfileSnippets_V1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-12-27','2050-01-01',50,'JobApp Robust Provider Snippet V1',12064161,'Transactional-Email_MessageReceived_JobApplication_RobustProfileSnippets_V1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-12-27','2050-01-01',50,'JobApp Robust Provider Snippet V1',12069267,'Transactional-Email_MessageReceived_JobApplication_W/Promo_RobustProfileSnippets_V1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-12-27','2050-01-01',50,'JobApp Robust Provider Snippet V1',12069203,'Transactional-Email_MessageReceived_JobApplication_W/Promo_RobustProfileSnippets_V1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-12-27','2050-01-01',50,'JobApp Robust Provider Snippet V1',12067845,'Transactional-Email_MessageReceived_JobApplication_W/Promo_RobustProfileSnippets_V1');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-12-27','2050-01-01',50,'JobApp Robust Provider Snippet V1',12069243,'Transactional-Email_MessageReceived_JobApplicationw/promo');
+INSERT INTO analytics_prod.INTL_AB_CRM_Performance VALUES ('seeker','2024-12-27','2050-01-01',50,'JobApp Robust Provider Snippet V1',12069193,'Transactional-Email_MessageReceived_JobApplicationw/promo');
 
 GRANT ALL on analytics_prod.INTL_AB_CRM_Performance to reporting_ro, analytics_team WITH GRANT OPTION;
 
